@@ -1,0 +1,17 @@
+.header-bg {
+    background: url('images/Home.png');
+    background-repeat: no-repeat;
+    height: 1000px;
+    border: 1px solid #000;
+  
+  }
+
+  .nav-item a:hover {
+      border-bottom: 1px solid orange;
+      width: 40%;
+      color: orange !important;
+  }
+
+  .nav-item {
+   margin: 0 1rem;
+  }
