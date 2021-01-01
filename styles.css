@@ -2,7 +2,6 @@
     background: url('images/Home.png');
     background-repeat: no-repeat;
     height: 1000px;
-    border: 1px solid #000;
   
   }
 
@@ -14,4 +13,23 @@
 
   .nav-item {
    margin: 0 1rem;
+  }
+
+  .btn btn-success {
+      color: orange;
+  }
+
+  .bg-gray{
+      border: 1px solid #000000;
+      padding: 150px;
+    
+  }
+
+  .text {
+     justify-content: center;
+  }
+
+  .container-pm {
+      border: 1px solid #000000;
+      padding: 150px;
   }
