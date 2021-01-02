@@ -15,6 +15,14 @@
    margin: 0 1rem;
   }
 
+  .btn-warning:hover {
+    color:white;
+  }
+  .btn {
+    border-radius: 9px;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+  }
   .btn btn-success {
       color: orange;
   }
@@ -32,4 +40,70 @@
   .container-pm {
       border: 1px solid #000000;
       padding: 150px;
+  }
+
+  .my-5 .row{
+     
+      margin: 0 2rem;
+  }
+  
+
+  .about-us-bg {
+    background: url('/img/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  @media(min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+  }
+   
+  @media(min-width: 992px) {
+    .container {
+        max-width: 960px;
+      }
+   
+    .nav-item {
+      padding-right: 2rem;
+      }   
+   
+    .text-pop p {
+      margin: 2rem 0;
+    }
+   
+    #showcase .container, #about-us .container {
+      display: flex;
+      
+    }
+   
+    #showcase .content {
+      text-align: left;
+      
+  }
+   
+    #showcase img{
+      margin-top: 1rem;
+      display: flex;
+      margin-left: 0;
+      margin-right: 0;
+      width: 30rem; 
+    }
+   
+    .about-us-bg {
+      background-position: left;
+    }
+   
+  @media(min-width: 1200px) {
+    .container {
+       max-width: 1140px;
+      }
+   
+  }
+   
+  @media(min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+   
   }
