@@ -1,9 +1,13 @@
-.header-bg {
-    background: url('images/Home.png');
-    background-repeat: no-repeat;
-    height: 1000px;
-  
-  }
+
+  * {
+    box-sizing: border-box;
+    }
+    .header-bg {
+        background: url('images/Home.png');
+        background-repeat: no-repeat;
+        height: 1000px;
+      
+      }
 
   .nav-item a:hover {
       border-bottom: 1px solid orange;
@@ -18,6 +22,11 @@
   .btn-warning:hover {
     color:white;
   }
+  .btn-warning {
+    color: white; 
+  }
+   
+
   .btn {
     border-radius: 9px;
     font-weight: 500;
@@ -36,23 +45,46 @@
   .text {
      justify-content: center;
   }
+  .nav-item a:hover {
+    color: orange !important;
+    text-decoration: underline;
+  }
+
 
   .container-pm {
-      border: 1px solid #000000;
-      padding: 150px;
-  }
-
+    border: 1px solid #000000;
+    padding: 150px;
+}
   .my-5 .row{
-     
+
       margin: 0 2rem;
   }
-  
-
+  .fas span {
+    color: white;
+  }
+  .btn-outline-light:hover {
+    color: grey;
+  }
   .about-us-bg {
-    background: url('/img/bg.png');
+    background: url('/images/bg.png');
     background-repeat: no-repeat;
     background-position: center;
   }
+
+.features-bg {
+    background: url('images/Features.png');
+    background-repeat: no-repeat;
+    padding: 3rem;
+}
+
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ 
+  
+}
+
   @media(min-width: 768px) {
     .container {
         max-width: 720px;
@@ -74,14 +106,47 @@
    
     #showcase .container, #about-us .container {
       display: flex;
-      
     }
    
     #showcase .content {
       text-align: left;
-      
+  }
+  #showcase {
+    margin: 2rem 0;
+  }
+  #showcase .container, #about-us .container{
+    justify-content: space-around;
   }
    
+  #showcase .content, #about-us .content {
+    align-self: center;
+    text-align: center;
+  }
+   
+  #showcase h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: white;
+  }
+   
+  #showcase p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+   
+  #showcase img, #about-us img {
+    margin: 1rem auto 1rem auto;
+    display: block;
+    width: 80%;
+   
+  }
+
+  #about-us img {
+      width: 50%;
+  }
+  
     #showcase img{
       margin-top: 1rem;
       display: flex;
