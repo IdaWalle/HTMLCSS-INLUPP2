@@ -109,7 +109,8 @@
   }
 
  .text-row {
- margin: 80px;
+     padding-top: 80px;
+ margin: 40px;
     text-align: center;
  }
 
@@ -155,6 +156,7 @@
   }
   #showcase .container, #about-us .container{
     justify-content: space-around;
+    padding: 100px;
   }
    
   #showcase .content, #about-us .content {
@@ -209,6 +211,7 @@
 
   .my-5 .row{
   margin: 0 2rem;
+  padding-top: 80px;
 }
 
   .grid-wrapper .flex {
