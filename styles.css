@@ -2,6 +2,10 @@
   * {
     box-sizing: border-box;
     }
+    html, body {
+      
+        font-family: 'Roboto', sans-serif;
+    }
     .header-bg {
         background: url('images/Home.png');
         background-repeat: no-repeat;
@@ -11,7 +15,6 @@
 
   .nav-item a:hover {
       border-bottom: 1px solid orange;
-      width: 40%;
       color: orange !important;
   }
 
@@ -36,15 +39,20 @@
       color: orange;
   }
 
+  .btn-outline-sucess{
+    color:#FFBB00;
+
+      }
+
+
   .bg-gray{
       border: 1px solid #000000;
       padding: 150px;
     
   }
 
-  .text {
-     justify-content: center;
-  }
+
+
   .nav-item a:hover {
     color: orange !important;
     text-decoration: underline;
@@ -55,10 +63,7 @@
     border: 1px solid #000000;
     padding: 150px;
 }
-  .my-5 .row{
-
-      margin: 0 2rem;
-  }
+  
   .fas span {
     color: white;
   }
@@ -77,17 +82,51 @@
     padding: 3rem;
 }
 
+.mobile-features img {
+    width: 100%;
+  }
+
+.grid-wrapper .flex {
+    display: flex;
+    justify-content: space-around;
+
+}
+
 
 .grid-wrapper {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
- 
-  
 }
+
+.grid-wrapper img {
+    padding: 1rem 1rem 0 0;
+    margin: auto;
+    
+  }
+
+  .mt-4 {
+      font-size: 50px;
+  }
+
+ .text-row {
+ margin: 80px;
+    text-align: center;
+ }
+
+ .screen {
+     display: flex;
+     justify-content: center;
+ }
+
+ 
 
   @media(min-width: 768px) {
     .container {
         max-width: 720px;
+    }
+  
+    .collapse-my5 {
+      display: inline;
     }
   }
    
@@ -155,9 +194,32 @@
       width: 30rem; 
     }
    
-    .about-us-bg {
-      background-position: left;
-    }
+
+    
+  .collapse-my5-1 {
+    display: inline;
+  }
+  .collapse-my5, .collapse-my5-1 {
+    display: none;
+  } 
+  
+  .about-us-bg {
+    background-position: left;
+  }
+
+  .my-5 .row{
+  margin: 0 2rem;
+}
+
+  .grid-wrapper .flex {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
    
   @media(min-width: 1200px) {
     .container {
