@@ -1,5 +1,4 @@
-
-  * {
+* {
     box-sizing: border-box;
     }
     html, body {
@@ -10,7 +9,13 @@
         background: url('images/Home.png');
         background-repeat: no-repeat;
         height: 1000px;
-      
+      }
+
+      .text-rovs {
+          background: url('images/Layer\ 815.png');
+         
+          background-position: center;
+          background-repeat: no-repeat;
       }
 
   .nav-item a:hover {
@@ -117,8 +122,18 @@
  .screen {
      display: flex;
      justify-content: center;
+     padding-bottom: 60px;
  }
 
+ .text-rovs {
+border: 1px solid #000;
+       text-align: center;
+ }
+
+ .text-rovs2 {
+     display: flex;
+     justify-content: space-between;
+ }
  
 
   @media(min-width: 768px) {
