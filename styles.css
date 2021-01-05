@@ -11,13 +11,7 @@
         height: 1000px;
       }
 
-      .text-rovs {
-          background: url('images/Layer\ 815.png');
-         
-          background-position: center;
-          background-repeat: no-repeat;
-      }
-
+  
   .nav-item a:hover {
       border-bottom: 1px solid orange;
       color: orange !important;
@@ -53,7 +47,6 @@
   .bg-gray{
       border: 1px solid #000000;
       padding: 150px;
-    
   }
 
 
@@ -94,7 +87,6 @@
 .grid-wrapper .flex {
     display: flex;
     justify-content: space-around;
-
 }
 
 
@@ -113,11 +105,11 @@
       font-size: 50px;
   }
 
- .text-row {
-     padding-top: 80px;
- margin: 40px;
-    text-align: center;
- }
+  .text-row {
+    padding-top: 80px;
+   margin: 40px;
+   text-align: center;
+}
 
  .screen {
      display: flex;
@@ -126,15 +118,82 @@
  }
 
  .text-rovs {
-border: 1px solid #000;
+       border: 1px solid #000;
        text-align: center;
+       font-weight: 900;
+       font-size: 1.3rem;
  }
 
- .text-rovs2 {
-     display: flex;
-     justify-content: space-between;
- }
+ .text-rovs {
+    background: url('images/Layer\ 815.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.text-rovs2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.download-bg {
+    background-image: url('images/Banner.png');
+   
+}
  
+.mask-group img {
+      align-items: right;
+      padding-top: 60px;
+        
+ }
+
+ .download-bg h1 {
+     font-weight: 700;
+     color: white;
+     font-size: 2.8rem;
+ }
+
+ .download-bg p {
+     color: white;
+     padding: 1rem 0 1rem 0;
+ }
+
+ .buttons-app img{
+     margin-right: 1rem;
+ }
+
+.forms {
+   text-align: center;
+ 
+}
+
+.forms p {
+    margin: 0;
+}
+
+.footer-bg {
+    background-image: url('images/Footer.png');
+}
+
+.footer-bar {
+    text-decoration: none;
+}
+
+.socialmedia a{
+   color:  white;
+   font-size: 20px;
+   margin: 0 0.8rem 0 0.8rem;
+}
+.socialmedia {
+    text-align: center;
+}
+
+.socialmedia .box {
+    background-color: rgb(112, 112, 112, 0.15);
+    border-radius: 30%;
+    padding: 8px;
+}
+
 
   @media(min-width: 768px) {
     .container {
