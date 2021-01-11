@@ -12,14 +12,14 @@
       }
 
   
-  .nav-item a:hover {
-      border-bottom: 1px solid orange;
-      color: orange !important;
-  }
-
   .nav-item {
-   margin: 0 1rem;
+   padding-right: 1.5rem;
   }
+  .nav-item a:hover {
+    border-bottom: 1px solid orange;
+    color: orange !important;
+}
+
 
   .btn-warning:hover {
     color:white;
@@ -68,38 +68,12 @@
   .btn-outline-light:hover {
     color: grey;
   }
-  .about-us-bg {
-    background: url('/images/bg.png');
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-.features-bg {
-    background: url('images/Features.png');
-    background-repeat: no-repeat;
-    padding: 3rem;
-}
+  
 
 .mobile-features img {
     width: 100%;
   }
 
-.grid-wrapper .flex {
-    display: flex;
-    justify-content: space-around;
-}
-
-
-.grid-wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.grid-wrapper img {
-    padding: 1rem 1rem 0 0;
-    margin: auto;
-    
-  }
 
   .mt-4 {
       font-size: 50px;
@@ -117,29 +91,7 @@
      padding-bottom: 60px;
  }
 
- .text-rovs {
-       border: 1px solid #000;
-       text-align: center;
-       font-weight: 900;
-       font-size: 1.3rem;
- }
 
- .text-rovs {
-    background: url('images/Layer\ 815.png');
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-
-.text-rovs2 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.download-bg {
-    background-image: url('images/Banner.png');
-   
-}
  
 .mask-group img {
       align-items: right;
@@ -158,18 +110,142 @@
      padding: 1rem 0 1rem 0;
  }
 
- .buttons-app img{
-     margin-right: 1rem;
+/* section 3 */ 
+.about-us-bg {
+    background: url('images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 0;
+  }
+  #about-us .content {
+    padding-left: 0;
+  }
+  #about-us .container {
+    padding-bottom: 2rem;
+  }
+
+ .buttons-app img {
+    margin: 0;
+    margin: 0.1rem;
+    width: 9.5rem;
  }
+ .btn-yellow {
+    background-color:  rgb(255, 187, 0, 0.15);
+    color:#FFBB00;
+  }
+  
+  .btn-yellow:hover {
+    opacity: 0.8;
+    color: #FFBB00;
+  }
+  
+  /* section 4 */ 
+  
+  
+.features-bg {
+    background: url('images/Features.png');
+    background-repeat: no-repeat;
+    background-color: #F5F5F5;
+    padding-top: 1.5rem;
+}
+.grid-wrapper .flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-wrapper img {
+    padding: 1rem 1rem 0 0;
+    margin: auto;
+    
+  }
+
+  
+.features-bg .flex h3 {
+    font-weight: 900;
+    font-size: 1.2rem;
+   
+  }
+
+  /* section 5*/ 
+
+
+.download-bg {
+ background-image: url('images/Banner.png');
+
+}
+
+.app-stat-bg {
+    background-image: url('images/Layer\ 815.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+  }
+  
+  .app-stat h2 {
+    color: #3096FE;
+    font-weight: 1700;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+ .app-stat p {
+    font-weight: 10000;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+/* section 8 */
 
 .forms {
    text-align: center;
- 
+   width: 100%;
+   margin: auto;
+   padding: 80px;
 }
 
 .forms p {
     margin: 0;
 }
+
+.forms-bg {
+    margin: 40px;
+}
+
+
+.form-control {
+    border: none;
+    background-color: #FBFBFB;
+    border-radius: 9px;
+    padding: 2.5rem;
+  }
+  
+  .form-group .textarea {
+    color: #3096FE;
+  }
+  .btn-blue {
+    background-color: #3096FE;
+    color: white;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+
+  }
+  
+  .btn-blue:hover{
+    opacity: 0.8;
+    color: white;
+  }
+  /* section 9 */ 
+
 
 .footer-bg {
     background-image: url('images/Footer.png');
@@ -177,7 +253,17 @@
 
 .footer-bar {
     text-decoration: none;
+
 }
+.footer-bg .container {
+    text-align: center;
+  }
+  
+
+.footer-bg ul {
+  display: none;
+}
+
 
 .socialmedia a{
    color:  white;
@@ -186,12 +272,13 @@
 }
 .socialmedia {
     text-align: center;
+    padding: 40px;
 }
 
 .socialmedia .box {
     background-color: rgb(112, 112, 112, 0.15);
     border-radius: 30%;
-    padding: 8px;
+   
 }
 
 
@@ -254,12 +341,12 @@
   #showcase img, #about-us img {
     margin: 1rem auto 1rem auto;
     display: block;
-    width: 80%;
+    width: 800%;
    
   }
 
   #about-us img {
-      width: 50%;
+      width: 40%;
   }
   
     #showcase img{
@@ -285,7 +372,7 @@
 
   .my-5 .row{
   margin: 0 2rem;
-  padding-top: 80px;
+  padding-top: 45px;
 }
 
   .grid-wrapper .flex {
