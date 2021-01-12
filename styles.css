@@ -16,7 +16,7 @@
    padding-right: 1.5rem;
   }
   .nav-item a:hover {
-    border-bottom: 1px solid orange;
+    text-decoration: underline;
     color: orange !important;
 }
 
@@ -39,10 +39,12 @@
   }
 
   .btn-outline-sucess{
-    color:#FFBB00;
+    color:#FFBB00;}
 
+ .btn-outline-light:hover {
+        color: orange;
       }
-
+      
 
   .bg-gray{
       border: 1px solid #000000;
@@ -73,42 +75,77 @@
 .mobile-features img {
     width: 100%;
   }
-
-
   .mt-4 {
-      font-size: 50px;
-  }
-
-  .text-row {
-    padding-top: 80px;
-   margin: 40px;
-   text-align: center;
+    font-size: 50px;
 }
 
- .screen {
-     display: flex;
-     justify-content: center;
-     padding-bottom: 60px;
- }
+.text-row {
+  padding-top: 80px;
+ margin: 40px;
+ text-align: center;
+}
+
+.screen {
+   display: flex;
+   justify-content: center;
+   padding-bottom: 60px;
+}
 
 
- 
+
 .mask-group img {
-      align-items: right;
-      padding-top: 60px;
-        
- }
+    align-items: right;
+    padding-top: 60px;
+      
+}
 
- .download-bg h1 {
-     font-weight: 700;
-     color: white;
-     font-size: 2.8rem;
- }
+.download-bg h1 {
+   font-weight: 700;
+   color: white;
+   font-size: 2.8rem;
+}
 
- .download-bg p {
-     color: white;
-     padding: 1rem 0 1rem 0;
- }
+.download-bg p {
+   color: white;
+   padding: 1rem 0 1rem 0;
+}
+
+/* section 1 */ 
+
+#showcase {
+    margin: 2rem 0;
+  }
+  #showcase .container, #about-us .container{
+    justify-content: space-around;
+    padding: 100px;
+  }
+   
+  #showcase .content, #about-us .content {
+    align-self: center;
+    text-align: center;
+  }
+   
+  #showcase h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: white;
+  }
+   
+  #showcase p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+   
+  #showcase img, #about-us img {
+    margin: 1rem auto 1rem auto;
+    display: block;
+    width: 800%;
+   
+  }
+
+
 
 /* section 3 */ 
 .about-us-bg {
@@ -312,38 +349,7 @@
     #showcase .content {
       text-align: left;
   }
-  #showcase {
-    margin: 2rem 0;
-  }
-  #showcase .container, #about-us .container{
-    justify-content: space-around;
-    padding: 100px;
-  }
-   
-  #showcase .content, #about-us .content {
-    align-self: center;
-    text-align: center;
-  }
-   
-  #showcase h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 3.5rem;
-    color: white;
-  }
-   
-  #showcase p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    color: white;
-  }
-   
-  #showcase img, #about-us img {
-    margin: 1rem auto 1rem auto;
-    display: block;
-    width: 800%;
-   
-  }
+
 
   #about-us img {
       width: 40%;
