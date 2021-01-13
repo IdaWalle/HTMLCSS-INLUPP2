@@ -171,7 +171,7 @@
     padding-left: 0;
   }
   .about-us .container {
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
     align-items: center;
     text-align: center;
   }
@@ -358,6 +358,7 @@ overflow: hidden;
 .footer-bg {
     background-image: url('images/Footer.png');
     padding: 50px;
+    
 }
 
 .footer-bar {
@@ -383,6 +384,7 @@ overflow: hidden;
 .socialmedia {
     text-align: center;
     padding: 10px;
+    cursor: pointer;
 }
 
 .socialmedia .box {
@@ -468,12 +470,11 @@ overflow: hidden;
       }
       
       .iphone-img {
-       
           margin-top: 1rem;
           display: flex;
-          margin-left: 0;
-          margin-right: 0;
-          width: 30rem; 
+          margin-left: 0rem;
+          margin-right: 0rem;
+          width: 40rem; 
         }
       
       
@@ -488,7 +489,11 @@ overflow: hidden;
 
       .mobile-features img, .mask-group img{
         width: 82%; }
-
+        
+        .features-bg {
+      
+          padding-top: 7rem;
+      }
       .mask-group img{
         justify-content: right;
       }
@@ -578,8 +583,8 @@ overflow: hidden;
     justify-content: center;
     padding-bottom: 40px;
     margin: 40px;
-  width: auto;
-  height: auto;
+    width: auto;
+    height: auto;
  }
    
 
