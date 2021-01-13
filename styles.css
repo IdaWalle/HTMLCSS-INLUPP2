@@ -182,7 +182,7 @@
  .buttons-app img {
     margin: 0;
     margin: 0.1rem;
-    width: 9.5rem;
+    width: 10rem;
  }
  .btn-yellow {
     background-color:  rgb(255, 187, 0, 0.15);
@@ -237,12 +237,9 @@
    text-align: center;
    font-weight: 5rem;
   }
-  
-  
+ 
   .screen {
 overflow: hidden;
-
-
   }
 
   
@@ -303,42 +300,41 @@ overflow: hidden;
 /* section 8 */
 
 .forms {
-    width: 100%;
-
- }
+  width: 100%;
+ margin: auto;
+ 
+}
 
 .forms h1 {
   display: flex;
   justify-content: center;
-    font-weight: 1700;
+  font-weight: 1700;
 }
 
 .forms p {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    display: none;
-
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  display: none;
 }
 
 .forms-bg {
-    margin: 70px;
- 
+  margin: 70px;
+  
 }
 
 
 .form-control {
-    border: none;
-    background-color: #FBFBFB;
-    border-radius: 9px;
-    padding: 1rem;
-    margin: 10px;
+  border: none;
+  background-color: #FBFBFB;
+  border-radius: 9px;
+  padding: 1rem;
+  margin: 10px;
+}
 
-  }
-  
-  .textarea {
-    padding-bottom: 4rem;
-  }
+.textarea {
+  padding-bottom: 4rem;
+}
 
   .form-group {
     color: #3096FE;
@@ -491,8 +487,7 @@ overflow: hidden;
 }
 
       .mobile-features img, .mask-group img{
-        width: 100%;
-      }
+        width: 82%; }
 
       .mask-group img{
         justify-content: right;
