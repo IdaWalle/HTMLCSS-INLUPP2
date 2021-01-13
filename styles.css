@@ -491,7 +491,7 @@ overflow: hidden;
         width: 82%; }
         
         .features-bg {
-      
+      padding-bottom: 7rem;
           padding-top: 7rem;
       }
       .mask-group img{
