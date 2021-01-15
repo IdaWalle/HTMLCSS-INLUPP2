@@ -22,7 +22,8 @@
 
     .nav-item {
       color: orange;
-   
+      /* border-bottom: 3px solid orange; */
+      /* text-decoration: underline; */
       position: relative;
     }
 
@@ -33,12 +34,37 @@
 
 .nav-item:hover::before {
   content: "";
-  height: 2px;
+  height: 3px;
   background: orange;
   position: absolute;
   bottom: 0.2rem;
-  left: 0.5rem;
-  right: 2.8rem;
+  left: 0.1rem;
+  right: 1.3rem;
+}
+ 
+.nav-item2 {
+  padding-right: 1.5rem;
+}   
+.nav-item2 {
+  color: orange;
+  /* border-bottom: 3px solid orange; */
+  /* text-decoration: underline; */
+  position: relative;
+}
+
+.nav-item2 a:hover {
+
+color: orange !important;
+}
+
+.nav-item2:hover::before {
+content: "";
+height: 3px;
+background: orange;
+position: absolute;
+bottom: 0.2rem;
+left: 0.5rem;
+right: 2.5rem;
 }
 
 .btn-warning:hover {
@@ -520,8 +546,53 @@ margin: 10px;
   .nav-item {
       padding-right: 1.5rem;
     }   
- 
+    .nav-item {
+      color: orange;
+      /* border-bottom: 3px solid orange; */
+      /* text-decoration: underline; */
+      position: relative;
+    }
+
+.nav-item a:hover {
   
+  color: orange !important;
+}
+
+.nav-item:hover::before {
+  content: "";
+  height: 3px;
+  background: orange;
+  position: absolute;
+  bottom: 0.2rem;
+  left: 0.5rem;
+  right: 2.5rem;
+}
+
+   
+.nav-item2 {
+  padding-right: 1.5rem;
+}   
+.nav-item2 {
+  color: orange;
+  /* border-bottom: 3px solid orange; */
+  /* text-decoration: underline; */
+  position: relative;
+}
+
+.nav-item2 a:hover {
+
+color: orange !important;
+}
+
+.nav-item2:hover::before {
+content: "";
+height: 3px;
+background: orange;
+position: absolute;
+bottom: 0.2rem;
+left: 1.0rem;
+right: 2.9rem;
+}
   #showcase .container, .about-us .container {
       display: flex;
       padding-bottom: 80px;
