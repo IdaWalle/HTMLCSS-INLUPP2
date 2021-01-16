@@ -304,22 +304,15 @@ overflow: hidden;
   color: #3096FE;
   font-weight: 5rem;
   margin: 0;
-
 }
 
-.app-stat p {
-  
-
-}
 
 .app-stat .container {
    height: 300px;
    padding: 0.7rem;
 }
 
-.flex {
-  
-  }
+
 /* section 7 */
 
 .download-bg {
@@ -679,19 +672,18 @@ padding-top: 45px;
 }
  
 
-#app-screen .content, .app-stat .content {
-  width: 50%;
-  margin: auto;
-}
+
 
 .screen {
   overflow: visible;
     }
   
-.app-stat .flex{
-    display:flex;
-    justify-content: space-between;
-}
+    .app-stat .flex {
+      width: 70%;
+      align-items: center;
+      margin: 2rem auto 2rem auto;
+    }
+  
 
 .app-stat-bg {
   background-image: url('images/Layer\ 815.png');
