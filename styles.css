@@ -317,7 +317,9 @@ margin: auto;
 
 .download-bg {
 background-image: url('images/Banner.png');
-margin-top: 80px
+margin-top: 80px;
+background-repeat: no-repeat;
+background-color: #41a0ff;
 }
 
 .download-bg h1 {
