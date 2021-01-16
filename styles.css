@@ -7,13 +7,12 @@
 
     
   /* section header */
-    .header-bg {
-      background: url('images/Home.png');
-      background-repeat: no-repeat;
-      background-position: top;
-      padding-bottom: 60px;
-     
-    }
+  .header-bg {
+    background: url('images/Group.4634.png'), url('images/Rectangle.1914.png');
+    background-position:bottom;
+    background-repeat: no-repeat;
+  }
+  
   
     #buttons-app {
       display: flex;
@@ -279,8 +278,9 @@ display: none;
  font-weight: 5rem;
 }
 
-.screen {
-overflow: hidden;
+.screen img{
+width: 90%;
+margin: auto;
 }
 
 
@@ -441,6 +441,7 @@ display: none;
   .container {
       max-width: 720px;
   }
+  
     
   .buttons-app img{
     margin-right: 1rem;
@@ -671,12 +672,6 @@ padding-top: 45px;
   height: auto;
 }
  
-
-
-
-.screen {
-  overflow: visible;
-    }
   
     .app-stat .flex {
       width: 70%;
